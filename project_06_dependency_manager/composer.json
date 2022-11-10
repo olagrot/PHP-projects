@@ -1,0 +1,25 @@
+{
+    "name": "olagrot/dependency_manager",
+    "description": "Composer tutorial",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandra Grot",
+            "email": "olagrot0@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.1",
+        "monolog/monolog": "^3.2",
+        "predis/predis": "^2.0",
+        "phpstan/phpstan": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+
+    }
+}
